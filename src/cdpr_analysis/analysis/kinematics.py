@@ -7,7 +7,7 @@ class ForwardKinematics:
     def __init__(self, cdpr: CableDrivenParallelRobot):
         self.cdpr = cdpr
 
-    def calculate(self, cableLengths: List[float]) -> Pose:
+    def calculate(self, cable_lengths: List[float]) -> Pose:
         print("calculating forward kinematics")
         return Pose([0.0, 0.0, 0.0], [[1.0, 0.0, 0.0], [0.0, 1.0, 0.0], [0.0, 0.0, 1.0]])
 
