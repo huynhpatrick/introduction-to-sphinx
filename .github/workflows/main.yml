@@ -13,7 +13,7 @@ jobs:
           cache: pip
       - run: pip install .
       - run: pip install sphinx sphinx_rtd_theme
-      - run: sphinx-build docs/source docs/build
+      - run: sphinx-build doc/source doc/build
       - uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
         with:
