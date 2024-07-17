@@ -1,3 +1,7 @@
+"""Subpackage for the types of required for the
+analysis of Cable-Driven Parallel Robots.
+"""
+
 from typing import List
 
 

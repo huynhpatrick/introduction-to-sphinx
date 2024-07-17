@@ -1,3 +1,7 @@
+"""Subpackage for the kinematics analysis of
+a Cable-Driven Parallel Robot.
+"""
+
 from cdpr_analysis.model import CableDrivenParallelRobot
 from cdpr_analysis.types import Pose
 from typing import List

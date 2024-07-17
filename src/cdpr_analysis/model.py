@@ -1,3 +1,7 @@
+"""Subpackage to model the Cable-Driven Parallel Robot
+"""
+
+
 class CableDrivenParallelRobot:
     """A class which models a Cable-Driven Parallel Robot.
 
