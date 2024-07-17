@@ -6,3 +6,4 @@ cdpr_analysis documentation
    :caption: Contents:
 
    usage
+   api
