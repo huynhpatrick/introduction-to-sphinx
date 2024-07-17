@@ -2,7 +2,7 @@ cdpr\_analysis.model
 ====================
 
 .. automodule:: cdpr_analysis.model
-
+  
    
    
    
@@ -16,6 +16,8 @@ cdpr\_analysis.model
    .. rubric:: Classes
 
    .. autosummary::
+      :toctree: 
+      :template: class.rst 
    
       CableDrivenParallelRobot
    

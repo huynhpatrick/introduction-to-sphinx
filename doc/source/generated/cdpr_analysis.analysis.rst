@@ -2,7 +2,7 @@ cdpr\_analysis.analysis
 =======================
 
 .. automodule:: cdpr_analysis.analysis
-
+  
    
    
    
@@ -25,6 +25,7 @@ cdpr\_analysis.analysis
 
 .. autosummary::
    :toctree:
+   :template: module.rst
    :recursive:
 
    cdpr_analysis.analysis.kinematics

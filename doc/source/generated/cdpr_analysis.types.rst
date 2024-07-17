@@ -2,7 +2,7 @@ cdpr\_analysis.types
 ====================
 
 .. automodule:: cdpr_analysis.types
-
+  
    
    
    
@@ -16,6 +16,8 @@ cdpr\_analysis.types
    .. rubric:: Classes
 
    .. autosummary::
+      :toctree: 
+      :template: class.rst 
    
       Pose
    

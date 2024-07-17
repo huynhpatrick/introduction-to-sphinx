@@ -2,7 +2,7 @@
 ==============
 
 .. automodule:: cdpr_analysis
-
+  
    
    
    
@@ -25,6 +25,7 @@
 
 .. autosummary::
    :toctree:
+   :template: module.rst
    :recursive:
 
    cdpr_analysis.analysis
