@@ -27,7 +27,7 @@ class ForwardKinematics:
         :param cable_lengths: Lengths of the cables
         :type cable_lengths: List[float]
         :return: The pose
-        :rtype: :class:`Pose`
+        :rtype: :class:`cdpr_analysis.types.Pose`
         """
         print("calculating forward kinematics")
         return Pose([0.0, 0.0, 0.0], [[1.0, 0.0, 0.0], [0.0, 1.0, 0.0], [0.0, 0.0, 1.0]])
