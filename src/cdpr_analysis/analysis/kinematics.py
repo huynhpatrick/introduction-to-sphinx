@@ -7,13 +7,13 @@ class ForwardKinematics:
     """Class for the forward kinematics calculation of a Cable-Driven Parallel Robot.
 
     :param cdpr: The Cable-Driven Parallel Robot to be analyzed
-    :type cdpr: :class: `CableDrivenParallelRobot`
+    :type cdpr: :class: `cdpr_analysis.model.CableDrivenParallelRobot`
     """
     def __init__(self, cdpr: CableDrivenParallelRobot):
         """Constructor method
 
         :param cdpr: The Cable-Driven Parallel Robot to be analyzed
-        :type cdpr: :class: `CableDrivenParallelRobot`
+        :type cdpr: :class: `cdpr_analysis.model.CableDrivenParallelRobot`
         """
         self.cdpr = cdpr
 
@@ -33,7 +33,7 @@ class InverseKinematics:
     """Class for the inverse kinematics calculation of a Cable-Driven Parallel Robot.
 
     :param cdpr: The Cable-Driven Parallel Robot to be analyzed
-    :type cdpr: :class: `CableDrivenParallelRobot`
+    :type cdpr: :class: `cdpr_analysis.model.CableDrivenParallelRobot`
     """
     def __init__(self, cdpr: CableDrivenParallelRobot):
         self.cdpr = cdpr
@@ -43,7 +43,7 @@ class InverseKinematics:
         Calculates the inverse kinematics pose of a Cable-Driven Robot.
 
         :param pose: The pose of the Cable-Driven Parallel Robot
-        :type pose: :class:`Pose`
+        :type pose: :class:`cdpr_analysis.types.Pose`
         :return: cable lengths
         :rtype: List[float]
         """

@@ -27,6 +27,7 @@ class CableDrivenParallelRobot:
         :param filepath: The filepath of the file to be loaded
         :type filepath: str
         :return: The loaded Cable-Driven Parallel Robot
+        :rtype: class:`cdpr_analysis.model.CableDrivenParallelRobot`
         """
         print("loading " + filepath)
         return CableDrivenParallelRobot(filepath)
